@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+
+.jumbotron-fluid {
+  background: #EDF2F4;
+  padding: 40px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+p {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 100;
+}
+.title {
+  font-weight: 700;
+  text-align: center;
+}
+.calculator {
+  background-color: #d2daca;
+  padding: 10px 0;
+  font-family: 'Orbitron', sans-serif; 
+}
+.calculator h3, .calculator h4 {
+  font-family: 'Orbitron', sans-serif; 
+}
+#new-input {
+  margin: 0 5px 5px 0;
+  text-align: right;
+}
+#inputs {
+  margin: 5px 0 0 5px;
+}
+.calc-screen {
+  width: 248px;
+  background-color: #a5af7f;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.left-face {
+  margin-left: 18.5px;
+}
+.btn-dark {
+  background-color: #222121;
+  width: 50px;
+}
+.btn-dark:hover {
+  text-decoration: none;
+  background-color: #222121;
+}
+.btn-zero {
+  width: 116px;
+}
+.btn-equals {
+  height: 84px;
+  margin-left: 2.75px;
+}
+.right-face1 {
+  margin-right: 12px;
+}
+.right-face2 {
+  margin-right: 11px;
+}
+.error-text p {
+  margin: 0;
+}
+@media (max-width: 1199px) {
+  .calculator {
+    width: 285px;
+  }
+}
